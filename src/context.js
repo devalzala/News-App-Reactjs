@@ -11,7 +11,7 @@ let API = "http://hn.algolia.com/api/v1/search?";
 
 const initialState = {
   isLoading: true,
-  query: "react",
+  query: "",
   nbPages: 0,
   page: 0,
   hits: [],
